@@ -26,6 +26,10 @@ app
       clientId: authConfig.clientId,
       authorizationParams: {
         redirect_uri: window.location.origin,
+        // Auth0 Management API
+        // audience: "{https://dev-ef5b0pq4ye5gonso.us.auth0.com/api/v2/}"
+        // Quickstart API - Created by self
+        // audience: "{http://localhost:3000/quickstart/api}",
       }
     })
   )
